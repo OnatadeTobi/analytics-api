@@ -7,4 +7,7 @@ app = FastAPI()
 def read_root():
     return {'hello': 'world'}
 
-# @app.get
+
+@app.get('/healthz')
+def read_api_health():
+    return {'status': 'ok'}

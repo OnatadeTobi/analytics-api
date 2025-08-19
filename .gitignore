@@ -39,13 +39,13 @@ build/
 *.spec
 
 # Logs
-*.log
+*.log   
   
 # SQLite
 *.sqlite3
 db.sqlite3
 
-# __init__.py cache
+# __init__.py cache  
 *.pyc
 
 # Jupyter notebooks
